@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Preguntas | Base de Datos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container"<% if (locals.categoryName) { %> data-category="<%= categoryName %>"<% } %>>
+    <div class="question-card" id="question-card-prototype" style="display: none;">
+      <div class="question-card-header">
+        <div class="question-card-number"></div>
+        <div class="question-card-category"></div>
+      </div>
+      <div class="question-card-body">
+        <div class="question-card-text"></div>
+        <div class="question-card-answer">
+          <textarea></textarea>
+        </div>
+      </div>
+      <div class="question-card-footer">
+        <button class="question-button question-button-fail">Preguntar después</button>
+        <button class="question-button question-button-ok">Ya la sé</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <button class="sidebar-toggle"><i class="fa fa-chevron-left"></i></button>
+    <div class="sidebar-content">
+      <div class="sidebar-categories">
+        <h2>Categorías activas</h2>
+        <ul>
+          <li class="sidebar-category" id="category-prototype" style="display:none;">
+            <span class="toggle-switch">
+              <span class="toggle-knob"></span>
+            </span>
+            <span class="category-name"></span>
+          </li>
+        </ul>
+      </div>
+      <div class="sidebar-buttons">
+        <button class="sidebar-button" id="reset-questions">Reiniciar preguntas</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="progress" style="display: none;">
+    <div class="progress-bar">
+      <div class="progress-bar-inner" style="width:20%"></div>
+    </div> 
+    <div class="progress-text">
+      <span class="progress-text-done"></span>
+      de
+      <span class="progress-text-total"></span>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+<script src="js/app.js"></script>
+
+</html>

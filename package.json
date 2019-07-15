@@ -1,0 +1,35 @@
+{
+  "name": "preguntitas",
+  "version": "1.0.0",
+  "description": "App for making questions in random order",
+  "main": "dist/App.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "tsc",
+    "watch:build": "tsc --watch",
+    "watch:app": "nodemon './dist/App.js' --watch './dist'",
+    "app": "node './dist/App.js'",
+    "start": "npm-run-all clean build watch:app --print-label"
+  },
+  "author": "Franco Frizzo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "nodemon": "^1.18.7",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^2.6.2",
+    "sqlite": "^2.9.3",
+    "typescript": "^2.9.2"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/express": "^4.17.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://www.github.com/francofrizzo/preguntitas.git"
+  },
+  "keywords": []
+}
