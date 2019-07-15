@@ -1,0 +1,46 @@
+[
+  {
+    "name": "General",
+    "color": "#778ca3"
+  },
+  {
+    "name": "Modelización",
+    "color": "#fd9644"
+  },
+  {
+    "name": "Lenguajes de consulta",
+    "color": "#2bcbba"
+  },
+  {
+    "name": "Normalización",
+    "color": "#fc5c65"
+  },
+  {
+    "name": "Transacciones",
+    "color": "#fed330"
+  },
+  {
+    "name": "Optimización",
+    "color": "#26de81"
+  },
+  {
+    "name": "No-SQL",
+    "color": "#45aaf2"
+  },
+  {
+    "name": "Teoría de modelos finitos",
+    "color": "#fd79a8"
+  },
+  {
+    "name": "Data mining/Data warehouse",
+    "color": "#4b7bec"
+  },
+  {
+    "name": "Bases de datos distribuidas",
+    "color": "#a55eea"
+  },
+  {
+    "name": "Miscelánea",
+    "color": "#d1d8e0"
+  }
+]

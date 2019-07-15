@@ -1,0 +1,902 @@
+[
+  {
+    "category": "General",
+    "question": "Nombrar tres componentes del DBMS y explicar para qué sirven."
+  },
+  {
+    "category": "General",
+    "question": "¿Cómo es el proceso de creación de una base de datos?"
+  },
+  {
+    "category": "General",
+    "question": "¿Qué es DML? Dar un ejemplo de instrucción SQL de esta categoría."
+  },
+  {
+    "category": "General",
+    "question": "¿Qué es DDL? Dar un ejemplo de una instrucción SQL de este grupo."
+  },
+  {
+    "category": "General",
+    "question": "¿Qué es DCL? Dar un ejemplo de una instrucción SQL de este grupo."
+  },
+  {
+    "category": "General",
+    "question": "¿Qué permisos pueden asignarse en una tabla?"
+  },
+  {
+    "category": "General",
+    "question": "Indicar los tres niveles que tiene la arquitectura de una base de datos. Ejemplificar."
+  },
+  {
+    "category": "General",
+    "question": "¿Qué garantiza la independencia física de las bases de datos?"
+  },
+  {
+    "category": "General",
+    "question": "Definir independencia lógica y explicar como se vincula con los niveles de arquitectura de las bases de datos."
+  },
+  {
+    "category": "General",
+    "question": "¿Qué es el system catalog?"
+  },
+  {
+    "category": "General",
+    "question": "¿Quién es el encargado de mantener actualizado al system catalog?"
+  },
+  {
+    "category": "General",
+    "question": "¿Qué se utiliza del system catalog a la hora de validar una query?"
+  },
+  {
+    "category": "General",
+    "question": "Detallar el uso que el DBMS le da al system catalog en el momento de crear una tabla."
+  },
+  {
+    "category": "General",
+    "question": "Detallar el uso que le da el DBMS al system catalog en el momento de hacer un insert en una tabla."
+  },
+  {
+    "category": "General",
+    "question": "¿Qué instrucciones DDL actualizan el system catalog?"
+  },
+  {
+    "category": "General",
+    "question": "Mostrar dos usos que el compilador DDL le da al system catalog."
+  },
+  {
+    "category": "General",
+    "question": "Dar dos ventajas y desventajas en el uso de stored procedures."
+  },
+  {
+    "category": "Modelización",
+    "question": "¿Qué es un DER? ¿Para qué se utiliza?"
+  },
+  {
+    "category": "Modelización",
+    "question": "¿Cuáles son los tipos de atributos?"
+  },
+  {
+    "category": "Modelización",
+    "question": "¿Cuál es la diferencia entre atributos multivaluados y compuestos?"
+  },
+  {
+    "category": "Modelización",
+    "question": "¿Qué es el dominio de un atributo? Dar un ejemplo."
+  },
+  {
+    "category": "Modelización",
+    "question": "Explicar un ejemplo de un atributo identificatorio."
+  },
+  {
+    "category": "Modelización",
+    "question": "Definir clave primaria. ¿Qué operaciones de DML controlan esta restricción?"
+  },
+  {
+    "category": "Modelización",
+    "question": "Definir clave foránea. ¿Qué operaciones de SQL controlan esta restriccion?"
+  },
+  {
+    "category": "Modelización",
+    "question": "Dar una restricción de integridad referencial y mostrar cómo se la asegurar en el modelo relacional."
+  },
+  {
+    "category": "Modelización",
+    "question": "¿Qué datos almacena el system catalog sobre las foreign keys?"
+  },
+  {
+    "category": "Modelización",
+    "question": "¿Cuál es la diferencia entre una clave primaria y un índice único?"
+  },
+  {
+    "category": "Modelización",
+    "question": "¿Cuándo una entidad se considera débil? Dar un ejemplo."
+  },
+  {
+    "category": "Modelización",
+    "question": "¿Qué es una relación en el contexto de la teoría relacional? Ejemplificar."
+  },
+  {
+    "category": "Modelización",
+    "question": "¿Qué es una interrelación? Definir los tipos de interrelaciones."
+  },
+  {
+    "category": "Modelización",
+    "question": "¿Cuál es la diferencia entre relación e interrelación?"
+  },
+  {
+    "category": "Modelización",
+    "question": "Dar un ejemplo de una interrelación unaria."
+  },
+  {
+    "category": "Modelización",
+    "question": "Dar un ejemplo de una interrelación binaria."
+  },
+  {
+    "category": "Modelización",
+    "question": "¿Qué es la participación total en las interrelaciones? ¿Y la parcial?"
+  },
+  {
+    "category": "Modelización",
+    "question": "¿Qué es una agregación? Dar un ejemplo."
+  },
+  {
+    "category": "Modelización",
+    "question": "¿Cuál es la diferencia entre agregación e interrelación ternaria?"
+  },
+  {
+    "category": "Modelización",
+    "question": "¿Para qué sirven los atributos identificatorios en las interrelaciones?"
+  },
+  {
+    "category": "Modelización",
+    "question": "Dar dos restricciones que modelen cosas del mundo real que haya en el modelo de entidad-relación y cómo se implementan en la base de datos."
+  },
+  {
+    "category": "Lenguajes de consulta",
+    "question": "¿Qué es la selectividad de un predicado?"
+  },
+  {
+    "category": "Lenguajes de consulta",
+    "question": "Mencione dos propiedades de la selección en el álgebra relacional."
+  },
+  {
+    "category": "Lenguajes de consulta",
+    "question": "Mencione dos propiedades de la proyección en el álgebra relacional."
+  },
+  {
+    "category": "Lenguajes de consulta",
+    "question": "Mencione dos propiedades del join en el álgebra relacional."
+  },
+  {
+    "category": "Lenguajes de consulta",
+    "question": "¿En qué caso CRT no es igual al álgebra relacional?"
+  },
+  {
+    "category": "Lenguajes de consulta",
+    "question": "¿En qué difieren SELECT de SQL y la selección del álgebra relacional?"
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Qué problemas podría presentar un esquema?"
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Qué tipos de anomalías de actualización existen?"
+  },
+  {
+    "category": "Normalización",
+    "question": "Definir superclave. ¿Cuál es la diferencia entre superclave y clave candidata?"
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Una clave candidata es siempre una superclave?"
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Existe una relación de inclusión entre clave primaria, clave candidata y superclave?"
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Cómo se calcula una clave candidata?"
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Qué es una dependencia funcional?"
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Quién establece las dependencias funcionales?"
+  },
+  {
+    "category": "Normalización",
+    "question": "Definir dependencia funcional parcial. Dar un ejemplo."
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Qué es la clausura de un atributo?"
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Cómo se calcula la clausura de un atributo?"
+  },
+  {
+    "category": "Normalización",
+    "question": "Enunciar las leyes de Armstrong."
+  },
+  {
+    "category": "Normalización",
+    "question": "Enunciar las reglas adicionales de Armstrong."
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Cuándo un atributo no está en la clausura de otro?"
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Cómo se define la clausura de un conjunto de dependencias funcionales?"
+  },
+  {
+    "category": "Normalización",
+    "question": "Dar el algoritmo para calcular la clausura de un conjunto de dependencias funcionales."
+  },
+  {
+    "category": "Normalización",
+    "question": "Definir clave candidata en términos de clausuras de dependencias funcionales."
+  },
+  {
+    "category": "Normalización",
+    "question": "Demostrar que X define funcionalmente a Y si y solo si Y pertenece a la clausura de X."
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Cómo puede comprobarse que una dependencia funcional X→Y no puede inferirse de un conjunto de dependencias F?"
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Qué es un cubrimiento minimal de un conjunto de dependencias funcionales? ¿Qué utilidad tiene?"
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Cómo se obtiene un cubrimiento minimal de un conjunto de dependencias funcionales?"
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Cuándo dos conjuntos de dependencias funcionales son equivalentes?"
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Qué es la proyección de un conjunto de dependencias funcionales sobre un conjunto de atributos?"
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Qué es una descomposición de una relación?"
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Cuándo se dice que una descomposición es sin pérdida de información? Dar un ejemplo de descomposición con pérdida."
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Cómo puedo saber si una descomposición binaria es con pérdida de información?"
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Cómo puedo saber si una descomposición cualquiera es con pérdida de información?"
+  },
+  {
+    "category": "Normalización",
+    "question": "Sea R = {numEmpleado, nombreEmpleado, numDepto, nomDepto}. Dar una descomposición de R que no sea SPI."
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Cómo puedo saber si una descomposición conserva las dependencias funcionales?"
+  },
+  {
+    "category": "Normalización",
+    "question": "Dar un ejemplo de una descomposición con pérdida de dependencias funcionales."
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Qué es un atributo primo?"
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Qué es una dependencia funcional completa, parcial y transitiva?"
+  },
+  {
+    "category": "Normalización",
+    "question": "{NRO_PEDIDO, COD_ART, NOM_ART, CANT_PEDIDO, PRECIO, COD_EMP, NOM_EMP, FECHA}. Dar una dependencia funcional total. Dar una dependencia funcional parcial. Dar una dependencia funcional transitiva."
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Cuándo una relación está en 1FN?"
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Cuándo una relación está en 2FN?"
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Cuándo una relación está en 3FN?"
+  },
+  {
+    "category": "Normalización",
+    "question": "Si tengo una relación con 2 atributos, ¿puede pasar que no esté en 3FN?"
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Cuándo una relación está en FNBC?"
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Cuál es la diferencia entre FNBC y 3FN?"
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Cuál es el algoritmo utilizado para realizar una descomposición en FNBC sin pérdida de información?"
+  },
+  {
+    "category": "Normalización",
+    "question": "¿Cuál es el algoritmo utilizado para realizar una descomposición 3FN sin pérdida de información y sin pérdida de dependencias funcionales?"
+  },
+  {
+    "category": "Normalización",
+    "question": "Dada la siguiente relación {númeroEmpleado, nombreEmpleado, númeroDepartamento, costoDepartamento}, ¿qué dependencias funcionales son válidas? Decir en qué forma normal se encuentra la relación."
+  },
+  {
+    "category": "Normalización",
+    "question": "Considerar la siguiente relación: {CODEMP, TEL1, TEL2, TEL3}. ¿En qué forma normal se encuentra?"
+  },
+  {
+    "category": "Normalización",
+    "question": "Dada R = {A, B, C, D}, A es clave primaria, y además se tiene A→C, B→D. ¿En qué forma normal está R?"
+  },
+  {
+    "category": "Normalización",
+    "question": "Sea R = {A, B,   C, D}. AB es clave primaria, A→C y B→D son dependencias funcionales. ¿En qué forma normal se encuentra R?"
+  },
+  {
+    "category": "Transacciones",
+    "question": "¿Qué es una transacción?"
+  },
+  {
+    "category": "Transacciones",
+    "question": "Nombrar las cuatro operaciones básicas de las transacciones."
+  },
+  {
+    "category": "Transacciones",
+    "question": "Dar un ejemplo que involucre mas de una instruccion SQL donde sea necesario utilizar una transacción."
+  },
+  {
+    "category": "Transacciones",
+    "question": "Definir equivalencia de dos transacciones."
+  },
+  {
+    "category": "Transacciones",
+    "question": "¿Qué es el rollback de una transacción?"
+  },
+  {
+    "category": "Transacciones",
+    "question": "¿Qué es una historia?"
+  },
+  {
+    "category": "Transacciones",
+    "question": "¿Cuándo dos operaciones son conflictivas?"
+  },
+  {
+    "category": "Transacciones",
+    "question": "¿Qué son dos historias conflicto-equivalentes?"
+  },
+  {
+    "category": "Transacciones",
+    "question": "¿Qué diferencia existe entre una historia serial y una serializable? Ejemplificar."
+  },
+  {
+    "category": "Transacciones",
+    "question": "Definir historia serializable. Dar un ejemplo de una que lo sea y una que no lo sea."
+  },
+  {
+    "category": "Transacciones",
+    "question": "Dadas las transacciones: T1 = {R1(A); R1(B); W1(B); W1(A)}; T2 = {R1(A); W1(A)}. Dar un historial serial y otro serializable (pero no serial). [Viene con trampa]."
+  },
+  {
+    "category": "Transacciones",
+    "question": "Dado el siguiente conjunto de operaciones: T1 = {R1(A); R1(D); W1(A); W1(D)}; T2 = {R2(A); W2(A)}. Indicar la historia serial correspondiente y una serializable (no serial)."
+  },
+  {
+    "category": "Transacciones",
+    "question": "¿Por qué es importante que una historia sea serializable?"
+  },
+  {
+    "category": "Transacciones",
+    "question": "¿En qué consiste el método para probar que una historia es serializable?"
+  },
+  {
+    "category": "Transacciones",
+    "question": "Definir grafo de precedencia y enunciar el teorema de serializabilidad. ¿Por qué es importante este teorema en el control de concurrencia?"
+  },
+  {
+    "category": "Transacciones",
+    "question": "¿Qué significa que una transacción lea de otra? Dar un ejemplo."
+  },
+  {
+    "category": "Transacciones",
+    "question": "¿Cuándo una historia es recuperable? Dar un ejemplo de una que no lo sea."
+  },
+  {
+    "category": "Transacciones",
+    "question": "¿Qué es un scheduler ACA? Dar un ejemplo."
+  },
+  {
+    "category": "Transacciones",
+    "question": "¿Por qué el DBA admite scheduler ACA?"
+  },
+  {
+    "category": "Transacciones",
+    "question": "Dar una historia ACA que no sea serial."
+  },
+  {
+    "category": "Transacciones",
+    "question": "¿Cuándo una historia es estricta (ST)?"
+  },
+  {
+    "category": "Transacciones",
+    "question": "Enunciar el teorema de la recuperabilidad."
+  },
+  {
+    "category": "Transacciones",
+    "question": "Describir los problemas de serialización en sistemas concurrentes."
+  },
+  {
+    "category": "Transacciones",
+    "question": "Definir el problema de lost update y dar un ejemplo."
+  },
+  {
+    "category": "Transacciones",
+    "question": "Definir el problema de dirty read y dar un ejemplo."
+  },
+  {
+    "category": "Transacciones",
+    "question": "Dar dos tipos de control de concurrencia y compararlos (ventajas y desventajas)."
+  },
+  {
+    "category": "Transacciones",
+    "question": "De dos similitudes y dos diferencias entre control de concurrencia pesimista y optimista."
+  },
+  {
+    "category": "Transacciones",
+    "question": "Indicar dos similitudes y dos diferencias entre lockeo binario y shared lock (o lockeo ternario)."
+  },
+  {
+    "category": "Transacciones",
+    "question": "Explicar cómo funciona un upgrade lock."
+  },
+  {
+    "category": "Transacciones",
+    "question": "¿Qué protocolos de locking se utilizan para lograr serializabilidad?"
+  },
+  {
+    "category": "Transacciones",
+    "question": "Definir detalladamente el problema de la falsa sumarización."
+  },
+  {
+    "category": "Transacciones",
+    "question": "¿Qué es el problema de falsa sumarización y cómo lo soluciona el locking binario?"
+  },
+  {
+    "category": "Transacciones",
+    "question": "Describir detalladamente dos pruebas que haría sobre un sistema para comprobar detalladamente el funcionamiento del lockeo."
+  },
+  {
+    "category": "Transacciones",
+    "question": "Describir el método de recuperación undo logging."
+  },
+  {
+    "category": "Transacciones",
+    "question": "Describir el método de recuperación undo/redo logging."
+  },
+  {
+    "category": "Transacciones",
+    "question": "Describir el método de recuperación redo logging."
+  },
+  {
+    "category": "Transacciones",
+    "question": "¿Qué diferencia hay entre el sistema de logging con checkpoint quiescente y no quiescente?"
+  },
+  {
+    "category": "Transacciones",
+    "question": "¿Cómo se realiza undo con checkpoint quiescente? ¿Y no quiescente?"
+  },
+  {
+    "category": "Transacciones",
+    "question": "¿Cómo se realiza redo con checkpoint no quiescente?"
+  },
+  {
+    "category": "Transacciones",
+    "question": "¿Cómo se realiza undo/redo con checkpoint no quiescente?"
+  },
+  {
+    "category": "Transacciones",
+    "question": "¿Cuál es la diferencia entre commit y checkpoint?"
+  },
+  {
+    "category": "Transacciones",
+    "question": "Dado un sistema que tiene una caída y usa un log con actualizaciones inmediatas. Si antes del fallo se tienen las siguientes tres transacciones: T1 escribe y commitea; T2 solo lee; T3 escribe pero no commitea; indicar qué transacciones deben hacer UNDO, cuáles REDO y cuáles nada para recuperar el sistema."
+  },
+  {
+    "category": "Transacciones",
+    "question": "Una transacción no llega a hacer commit. Trabaja con actualización inmediata. ¿Cómo queda la base de datos después? (Como estaba antes de la transacción/como está después/no se puede saber)."
+  },
+  {
+    "category": "Transacciones",
+    "question": "Se tiene una base de datos con actualización inmediata. Mostrar en un grafico en qué situación tendría que estar T2 para que el DBMS tuviera que hacer undo."
+  },
+  {
+    "category": "Transacciones",
+    "question": "Describir el método de timestamping en el modelo de concurrencia y recuperabilidad optimista."
+  },
+  {
+    "category": "Transacciones",
+    "question": "Describir el método de timestamping multiversión en el modelo de concurrencia y recuperabilidad optimista."
+  },
+  {
+    "category": "Transacciones",
+    "question": "Describir qué ocurre al realizarse un read con un sistema de control de concurrencia por timestamp."
+  },
+  {
+    "category": "Transacciones",
+    "question": "En un control de concurrencia multiversion, ¿qué pasos se realizan cuando se ejecuta R(X)?"
+  },
+  {
+    "category": "Transacciones",
+    "question": "Dar un ejemplo de una historia donde se produzca un abort, pero que se evite si se usa control multiversión."
+  },
+  {
+    "category": "Transacciones",
+    "question": "Describir el método de concurrencia y recuperabilidad optimista de validación."
+  },
+  {
+    "category": "Transacciones",
+    "question": "Dar dos diferencias y dos similitudes entre lock binario y concurrencia de control multiversion."
+  },
+  {
+    "category": "Transacciones",
+    "question": "¿Qué son las propiedades ACID?"
+  },
+  {
+    "category": "Transacciones",
+    "question": "¿Con qué propiedad de las transacciones está relacionada la necesidad de evitar rollbacks en cascada?"
+  },
+  {
+    "category": "Transacciones",
+    "question": "¿Cómo serían las historias que un mecanismo de control de concurrencia entregaría si se quisiera cumplir estrictamente con la condición de aislamiento?"
+  },
+  {
+    "category": "Transacciones",
+    "question": "¿Cuáles son los niveles de aislamiento de SQL? ¿Qué problema de control de concurrencia resuelve cada uno?"
+  },
+  {
+    "category": "Transacciones",
+    "question": "Definir la durabilidad de una transacción y dar un ejemplo donde se aplique esta propiedad."
+  },
+  {
+    "category": "Optimización",
+    "question": "¿Qué es un plan de ejecución?"
+  },
+  {
+    "category": "Optimización",
+    "question": "¿Qué es un plan de ejecución?"
+  },
+  {
+    "category": "Optimización",
+    "question": "¿Cuál es la diferencia entre un índice primario y uno secundario?"
+  },
+  {
+    "category": "Optimización",
+    "question": "¿Cómo es el funcionamiento de un índice primario?"
+  },
+  {
+    "category": "Optimización",
+    "question": "¿Cuál es la diferencia entre un índice clustered y uno unclustered?"
+  },
+  {
+    "category": "Optimización",
+    "question": "¿Qué es un índice no denso? Ejemplificar."
+  },
+  {
+    "category": "Optimización",
+    "question": "¿Cuál es la diferencia respecto a almacenamiento físico entre un índice denso y uno no denso?"
+  },
+  {
+    "category": "Optimización",
+    "question": "¿Cómo es el funcionamiento de un índice denso?"
+  },
+  {
+    "category": "Optimización",
+    "question": "Dar dos propiedades del álgebra relacional que se puedan utilizar en optimización de consultas. Ejemplificar."
+  },
+  {
+    "category": "Optimización",
+    "question": "Dar dos propiedades algebraicas para la selección que se puedan utilizar para optimizar queries. Ejemplificar."
+  },
+  {
+    "category": "Optimización",
+    "question": "Dar dos propiedades algebraicas para la proyección que se puedan utilizar para optimizar queries. Ejemplificar."
+  },
+  {
+    "category": "Optimización",
+    "question": "Dar dos propiedades algebraicas para el join o producto cartesiano que se puedan utilizar para optimizar queries. Ejemplificar."
+  },
+  {
+    "category": "Optimización",
+    "question": "Mencionar tres heurísticas de optimizacion de queries. Ejemplificar."
+  },
+  {
+    "category": "Optimización",
+    "question": "Dar una heurística de optimización y las propiedades algebraicas que se utilizan para aplicarla."
+  },
+  {
+    "category": "Optimización",
+    "question": "Describir la fórmula de la cantidad resultante de tuplas en una búsqueda por rango."
+  },
+  {
+    "category": "Optimización",
+    "question": "Explicar el costo de acceder por igualdad a registros de una BD utilizando un heap file."
+  },
+  {
+    "category": "Optimización",
+    "question": "Explicar el costo de acceder por igualdad a registros de una BD utilizando un sorted file."
+  },
+  {
+    "category": "Optimización",
+    "question": "Explicar el costo de acceder por igualdad a registros de una BD utilizando un índice hash."
+  },
+  {
+    "category": "Optimización",
+    "question": "Explicar el costo de acceder por igualdad a registros de una BD utilizando un índice con forma de árbol B+ unclustered."
+  },
+  {
+    "category": "Optimización",
+    "question": "¿Cuál es el costo de acceder por igualdad en una consulta si se tiene un indice B+ clustered que aplica al criterio de busqueda? Explicarlo."
+  },
+  {
+    "category": "Optimización",
+    "question": "Explicar la fórmula de costo de una búsqueda en rango para un índice B+ clustered."
+  },
+  {
+    "category": "Optimización",
+    "question": "¿Cuál es el costo de acceder a buscar un rango de valores si se tiene un índice hash que aplica al criterio de búsqueda? Explicarlo."
+  },
+  {
+    "category": "Optimización",
+    "question": "Describa el algoritmo BNLJ."
+  },
+  {
+    "category": "Optimización",
+    "question": "Describa el algoritmo INLJ."
+  },
+  {
+    "category": "Optimización",
+    "question": "Describa el algoritmo SMJ."
+  },
+  {
+    "category": "Optimización",
+    "question": "Dar un ejemplo de una query donde no se pueda usar INLJ."
+  },
+  {
+    "category": "Optimización",
+    "question": "Dar dos casos distintos donde el optimizador de consultas elija hacer un Full Scan."
+  },
+  {
+    "category": "Optimización",
+    "question": "¿Qué tres datos es necesario mantener en el system catalog para optimizar por costos? ¿Cuál es su utilidad?"
+  },
+  {
+    "category": "No-SQL",
+    "question": "Describir las bases de datos no relacionales de clave-valor. Ejemplificar."
+  },
+  {
+    "category": "No-SQL",
+    "question": "Describir las bases de datos no relaciones column-family. Ejemplificar."
+  },
+  {
+    "category": "No-SQL",
+    "question": "Describir las bases de datos no relacionales column store. Ejemplificar."
+  },
+  {
+    "category": "No-SQL",
+    "question": "Describir las bases de datos no relacionales de documentos. Ejemplificar."
+  },
+  {
+    "category": "No-SQL",
+    "question": "Describir las bases de datos no relacionales de grafos. Ejemplificar."
+  },
+  {
+    "category": "No-SQL",
+    "question": "¿Por qué se dice que las bases de datos no-SQL son schema-less? Ejemplificar."
+  },
+  {
+    "category": "No-SQL",
+    "question": "¿Qué dice el teorema de CAP?"
+  },
+  {
+    "category": "No-SQL",
+    "question": "¿Qué son las propiedades BASE?"
+  },
+  {
+    "category": "No-SQL",
+    "question": "¿Qué es la consistencia eventual? ¿En qué difiere de la tradicional?"
+  },
+  {
+    "category": "No-SQL",
+    "question": "¿En qué consiste realizar sharding?"
+  },
+  {
+    "category": "No-SQL",
+    "question": "¿En qué consiste la operación map-reduce?"
+  },
+  {
+    "category": "No-SQL",
+    "question": "¿Qué dos tipos de sistemas de réplicas se puede tener?"
+  },
+  {
+    "category": "No-SQL",
+    "question": "¿Qué son las réplicas P2P en bases de datos distribuidas? Dar ventajas y desventajas."
+  },
+  {
+    "category": "Teoría de modelos finitos",
+    "question": "¿Cómo explica Ehrenfreucht-Fraissé el poder de expresividad de la lógica de primer orden?"
+  },
+  {
+    "category": "Teoría de modelos finitos",
+    "question": "¿Qué es el quantifier rank?"
+  },
+  {
+    "category": "Teoría de modelos finitos",
+    "question": "Sea φ un enunciado de primer orden sobre un vocabulario τ. ¿Es siempre posible decidir si φ vale en todas las τ-estructuras finitas (bases de datos)? Enunciar el teorema general que responde esta pregunta."
+  },
+  {
+    "category": "Teoría de modelos finitos",
+    "question": "En términos de estructuras finitas, ¿qué es un query?. En particular, ¿qué es un first order query?"
+  },
+  {
+    "category": "Teoría de modelos finitos",
+    "question": "Exhibir un ejemplo de un query que no es first order."
+  },
+  {
+    "category": "Teoría de modelos finitos",
+    "question": "¿En qué nociones y construcciones de la lógica se basan las pruebas conocidas que un query no es first order?"
+  },
+  {
+    "category": "Teoría de modelos finitos",
+    "question": "¿Cuáles lógicas se invocan para tratar con queries que no son first order, y qué relación tienen estas lógicas con clases de complejidad?"
+  },
+  {
+    "category": "Data mining/Data warehouse",
+    "question": "¿Qué es data mining? Dar dos aplicaciones de estas técnicas."
+  },
+  {
+    "category": "Data mining/Data warehouse",
+    "question": "¿Qué es clustering? Dar dos ejemplos de uso donde pueda aplicarse."
+  },
+  {
+    "category": "Data mining/Data warehouse",
+    "question": "¿Cuál es la diferencia entre los algoritmos supervisados y no supervisados?"
+  },
+  {
+    "category": "Data mining/Data warehouse",
+    "question": "¿Qué son los algoritmos no supervisados? Ejemplificar."
+  },
+  {
+    "category": "Data mining/Data warehouse",
+    "question": "¿Qué es un data warehouse? ¿Cuál es su utilidad?"
+  },
+  {
+    "category": "Data mining/Data warehouse",
+    "question": "¿Qué diferencias hay entre un data warehouse y una base de datos relacional?"
+  },
+  {
+    "category": "Data mining/Data warehouse",
+    "question": "Mencionar dos mecanismos de limpieza de datos."
+  },
+  {
+    "category": "Data mining/Data warehouse",
+    "question": "Describir el modelo dimensional."
+  },
+  {
+    "category": "Data mining/Data warehouse",
+    "question": "¿Qué es una dimensión en el modelo de un data warehouse?"
+  },
+  {
+    "category": "Data mining/Data warehouse",
+    "question": "¿Cuáles son las formas clásicas que tienen los modelos de DW?"
+  },
+  {
+    "category": "Data mining/Data warehouse",
+    "question": "Dar dos tipos comunes de modelos dimensionales."
+  },
+  {
+    "category": "Data mining/Data warehouse",
+    "question": "Describir el cubo OLAP."
+  },
+  {
+    "category": "Bases de datos distribuidas",
+    "question": "¿Qué es una base de datos distribuida? Enumerar condiciones que debe cumplir."
+  },
+  {
+    "category": "Bases de datos distribuidas",
+    "question": "¿Qué son las bases distribuidas de sitio primario? Dar ventajas y desventajas."
+  },
+  {
+    "category": "Bases de datos distribuidas",
+    "question": "En una base distribuida, ¿qué significa que sea homogénea?"
+  },
+  {
+    "category": "Bases de datos distribuidas",
+    "question": "¿Cuáles son los distintos tipos de fragmentación que existen?"
+  },
+  {
+    "category": "Bases de datos distribuidas",
+    "question": "Explicar el concepto de fragmentación mixta."
+  },
+  {
+    "category": "Bases de datos distribuidas",
+    "question": "¿Cuál es la diferencia entre los sistemas de bases de datos distribuidos homogéneos y heterogéneos?"
+  },
+  {
+    "category": "Miscelánea",
+    "question": "Mencionar y explicar dos parámetros que necesita conocer el DBA sobre una tabla a la hora de crearla."
+  },
+  {
+    "category": "Miscelánea",
+    "question": "¿Por qué es necesario para un DBA conocer la cantidad de registros que inicialmente va a tener una tabla?"
+  },
+  {
+    "category": "Miscelánea",
+    "question": "¿Por qué es necesario para un DBA conocer la forma en que se van a incrementar los registros de una tabla?"
+  },
+  {
+    "category": "Miscelánea",
+    "question": "¿Qué es un administrador de datos? Dar dos diferencias con un DBA."
+  },
+  {
+    "category": "Miscelánea",
+    "question": "¿Qué es la seguridad independiente de una base de datos?"
+  },
+  {
+    "category": "Miscelánea",
+    "question": "¿Qué es la seguridad integrada de una base de datos?"
+  },
+  {
+    "category": "Miscelánea",
+    "question": "¿Cómo pueden utilizarse las vistas para aumentar la seguridad de la base de datos?"
+  },
+  {
+    "category": "Miscelánea",
+    "question": "¿Cómo pueden utilizarse los stored procedures para aumentar la seguridad de una base de datos? ¿Por qué?"
+  },
+  {
+    "category": "Miscelánea",
+    "question": "¿Qué es base de datos stream? Dar un ejemplo."
+  },
+  {
+    "category": "Miscelánea",
+    "question": "Dar dos capacidades de las bases de datos geográficas."
+  },
+  {
+    "category": "Miscelánea",
+    "question": "¿Para qué queremos tipos de datos complejos (objetos)?"
+  },
+  {
+    "category": "Miscelánea",
+    "question": "Mencionar dos extensiones del modelo de objetos en SQL. Ejemplificar."
+  },
+  {
+    "category": "Miscelánea",
+    "question": "Explicar qué es una long duration transaction."
+  },
+  {
+    "category": "Miscelánea",
+    "question": "¿Qué es Open Data?"
+  }
+]
