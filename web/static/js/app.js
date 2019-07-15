@@ -98,7 +98,10 @@ function updateQuestion() {
       renderQuestion(res);
     })
     .fail((res) => {
-      renderNoQuestion();
+      if (currentQuestionId !== null) {
+        currentQuestionId = null;
+        renderNoQuestion();
+      }
     })
 }
 
@@ -131,6 +134,11 @@ function resetQuestions() {
     url: `${host}/question/reset`,
     method: 'post',
   })
+    .done(() => {
+      if (currentQuestionId === null) {
+        updateQuestion();
+      }
+    });
 }
 
 $(document).ready(() => {
@@ -220,4 +228,7 @@ function toggleCategory(categoryName) {
     activeCategories.push(categoryName);
   }
   updateStats();
+  if (currentQuestionId === null) {
+    updateQuestion();
+  }
 }
