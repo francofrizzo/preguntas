@@ -35,6 +35,7 @@ function renderNoQuestion() {
   const oldCards = $('.question-card:not(#question-card-prototype)');
   const newCard = cardPrototype.clone();
 
+  newCard.removeAttr('id');
   newCard.find('.question-card-header').remove();
   newCard.find('.question-card-text').text("No quedan más preguntas.");
   newCard.find('.question-card-answer').remove();
