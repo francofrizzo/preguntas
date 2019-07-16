@@ -6,6 +6,8 @@ import { join as pathJoin } from "path";
 import { Category } from "./Models/Category";
 export { server }
 
+const basepath = process.env.BASEPATH || "http://localhost:3000";
+
 const server = {
   start: async function(): Promise<void> {
     const app = express();
@@ -18,7 +20,7 @@ const server = {
     app.use('/', express.static(pathJoin(__dirname, '../web/static')));
 
     app.get('/', async (req, res) => {
-      res.render('main');
+      res.render('main', { basepath });
     });
     
     app.get('/category', async(req, res) => {

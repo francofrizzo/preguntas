@@ -1,4 +1,3 @@
-const host = "http://localhost:3000";
 let currentQuestionId;
 let categories;
 let activeCategories;
