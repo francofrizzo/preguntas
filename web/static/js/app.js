@@ -25,6 +25,7 @@ function renderQuestion(question) {
   });
   editor.codemirror.on("change", () => editorChanged = true);
   editorChanged = false;
+  editor.codemirror.focus();
 
   oldCards.remove();
   newCard.show();
@@ -158,11 +159,11 @@ $(document).ready(() => {
 
   $(document).on('keydown', (e) => {
     if (!$(e.target).is('textarea')) {
-      const key = e.originalEvent.key;
+      const { key, ctrlKey } = e.originalEvent;
       if (key == 'q' || key == 'Q') {
         $('.question-button-fail').focus();
         setTimeout(manageQuestionFail, 200);
-      } else if (key == 'p' || key == 'P') {
+      } else if (key == 'p' || key == 'P' || key == 'Enter' && ctrlKey) {
         $('.question-button-ok').focus();
         setTimeout(manageQuestionOk, 200);
       }
