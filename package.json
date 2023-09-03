@@ -1,5 +1,5 @@
 {
-  "name": "preguntitas",
+  "name": "preguntas",
   "version": "1.0.0",
   "description": "App for making questions in random order",
   "main": "dist/App.js",
@@ -35,7 +35,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://www.github.com/francofrizzo/preguntitas.git"
+    "url": "http://www.github.com/francofrizzo/preguntas.git"
   },
   "engines": {
     "node": "8"
