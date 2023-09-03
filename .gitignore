@@ -2,7 +2,7 @@
 dist
 
 # Local configuration files
-local
+local/questions.sqlite3
 scripts
 
 # Node.js files
