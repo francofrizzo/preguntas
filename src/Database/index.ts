@@ -19,7 +19,13 @@ type QuestionRow = {
 
 const dbPromise: Promise<sqlite.Database> = sqlite
   .open("local/questions.sqlite3")
-  .then(db => updateDatabaseSchema(db));
+  .then(db => updateDatabaseSchema(db))
+  .catch(err => {
+    if (err.code === 'SQLITE_CANTOPEN') {
+      console.error(`Could not open database file. Make sure that the directory 'local' exists.`);
+    }
+    process.exit(1);
+  }) as Promise<sqlite.Database>;
 
 const updateDatabaseSchema = async function(db: sqlite.Database) {
   await db.run(`CREATE TABLE IF NOT EXISTS category (

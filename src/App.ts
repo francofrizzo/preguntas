@@ -29,7 +29,7 @@ const server = {
     })
 
     app.get('/question/random', async (req, res) => {
-      const categories = req.query.categories;
+      const categories = req.query.categories as string[]
       const question = await Question.getRandom(categories);
       if (question) {
         question.incrementAsked();
@@ -48,7 +48,7 @@ const server = {
 
     app.get('/question/:id', async (req, res) => {
       const { id } = req.params;
-      const question = await Question.get(id);
+      const question = await Question.get(parseInt(id, 10));
       if (question) {
         res.status(200).json(question);
       } else {
@@ -62,7 +62,7 @@ const server = {
         correct,
         answer
       } = req.body;
-      const question = await Question.get(id);
+      const question = await Question.get(parseInt(id, 10));
       if (question) {
         if (correct) {
           await Promise.all([
@@ -81,7 +81,7 @@ const server = {
 
       
     app.get('/stats', async(req, res) => {
-      const categories = req.query.categories;
+      const categories = req.query.categories as string[];
       const totalQuestions = await Question.getTotalCount(categories);
       const skippedQuestions = await Question.getSkippedCount(categories);
       res.status(200).json({
